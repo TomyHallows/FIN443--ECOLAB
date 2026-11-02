@@ -1,6 +1,6 @@
 # EcoLab — Programación en Finanzas (FIN443)
 
-Estado: estructura inicial preparada para la actividad del bloque 2 de la clase 3. El nombre del grupo está confirmado; el número, integrantes, repositorio remoto, datos y propuesta definitiva están pendientes de confirmación.
+Estado: estructura inicial de la actividad del bloque 2 de la clase 3. Repositorio confirmado: https://github.com/TomyHallows/FIN443--ECOLAB. El nombre del grupo está confirmado; el número, integrantes, datos y propuesta definitiva están pendientes de confirmación.
 
 ## Pregunta provisional
 

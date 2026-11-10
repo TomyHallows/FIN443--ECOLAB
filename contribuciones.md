@@ -4,7 +4,7 @@ Este documento diferencia organización propuesta de trabajo efectivamente reali
 
 | Integrante | GitHub | Responsabilidad propuesta (por acordar) |
 |---|---|---|
-| Joaquín Gutierrez | Pendiente | Datos, procedencia y limpieza |
+| Joaquín Gutierrez | joaquingutierrezf | Datos, procedencia y limpieza |
 | Tomás Hallows | TomyHallows | Integración, ejecución y replicabilidad |
 | Cristobal Jara | cristobalj13 | Equiponderada y mínima varianza |
 | Santiago Liu | saduniform90 | ERC y controles numéricos |

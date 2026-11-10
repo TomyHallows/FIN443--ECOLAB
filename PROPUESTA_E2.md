@@ -6,7 +6,7 @@ Estado: propuesta preparada el 9 de noviembre de 2026, pendiente de aprobación 
 ¿Las carteras de mínima varianza y paridad de riesgo superan a una cartera equiponderada en Sharpe neto de costos fuera de muestra sobre diez sectores estadounidenses entre 2007 y 2025?
 
 ## Equipo
-- Joaquín Gutierrez — usuario GitHub pendiente.
+- Joaquín Gutierrez — @joaquingutierrezf.
 - Tomás Hallows — @TomyHallows.
 - Cristobal Jara — @cristobalj13.
 - Santiago Liu — @saduniform90.
@@ -46,4 +46,4 @@ Existencia y datos bibliográficos revisados en el trabajo previo. Registro en e
    Uso propuesto: comparaciones múltiples y límites de elegir retrospectivamente la mejor estrategia.
 
 ## Pendientes de inscripción
-Confirmar usuario y correo de Joaquín; aceptación de invitaciones; número de grupo y nomenclatura fin443-grupoXX; comprobar cuartiles JCR y registrar tres referencias disponibles en el foro E2; enviar inscripción con copia a los cinco integrantes y obtener visto bueno.
+Aceptación de invitaciones pendientes; número de grupo y nomenclatura fin443-grupoXX; comprobar cuartiles JCR y registrar tres referencias disponibles en el foro E2; enviar inscripción con copia a los cinco integrantes y obtener visto bueno.

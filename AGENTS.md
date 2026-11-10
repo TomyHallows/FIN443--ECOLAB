@@ -8,8 +8,8 @@ Proyecto del curso FIN443, Programación en Finanzas. Consultar LEEME.md y la pr
 
 - Usar R, funciones explicables y rutas relativas a la raíz del proyecto.
 - Conservar datos originales en datos/; escribir productos en resultados/.
-- Comando previsto: Rscript codigo/ejecutar.R datos/precios.csv resultados [rf]. No afirmar que funciona hasta implementarlo y ejecutarlo.
-- Retornos simples; volatilidad muestral anualizada por sqrt(252); rf anual, predeterminada 0.05 salvo cambio explícito; Sharpe con media aritmética anualizada menos rf.
+- Comando previsto para E2: Rscript codigo/main.R; datos y configuración se documentarán en la propuesta. No afirmar que funciona hasta implementarlo y ejecutarlo.
+- Retornos simples; volatilidad muestral anualizada por sqrt(252); para E2 usar la tasa libre de riesgo diaria de la fuente y Sharpe de excesos diarios, según PROPUESTA_E2.md. No trasladar automáticamente la tasa fija de los desafíos.
 - CAGR por días calendario/365.25, unidades en fracciones en archivos y redondeo únicamente para presentación.
 - Registrar las convenciones definitivas de rebalanceo, pesos entre rebalanceos, rotación, costos y financiación. No confundir un ejercicio del curso con un backtest de mercado implementable.
 - Para entregas individuales, seguir el contrato exacto de su enunciado, que prevalece sobre este diseño provisional.

@@ -1,45 +1,21 @@
-# EcoLab — Programación en Finanzas (FIN443)
+# EcoLab — FIN443 / E2
 
-Estado: estructura inicial de la actividad del bloque 2 de la clase 3. Repositorio confirmado: https://github.com/TomyHallows/FIN443--ECOLAB. El nombre del grupo está confirmado; el número, integrantes, datos y propuesta definitiva están pendientes de confirmación.
+Propuesta: comparación de carteras de mínima varianza, paridad de riesgo y equiponderadas, considerando costos de transacción.
 
-## Pregunta provisional
+- [Propuesta de inscripción E2, equipo, datos y método](PROPUESTA_E2.md)
+- [Contribuciones y organización](contribuciones.md)
+- [Bitácora de IA](bitacora_ia.md)
+- [Actividad 2 previa](ACTIVIDAD_2.md)
+- [Datos](datos/) · [Código](codigo/) · [Resultados](resultados/)
 
-¿Las estrategias de asignación basadas en riesgo mejoran el rendimiento ajustado por riesgo de una cartera equiponderada fuera de muestra, después de considerar costos de transacción?
+Estado: preparación de inscripción; aprobación del profesor pendiente. El análisis empírico no está implementado ni ejecutado.
 
-La pregunta se propone a partir del tema indicado por el grupo: construir estrategias y portafolios, evaluar sus rendimientos y respaldar los resultados con papers científicos. No representa todavía una propuesta aprobada por todos los integrantes.
+## Ejecución prevista tras la aprobación
+`Rscript codigo/main.R`
 
-## Diseño propuesto
+Este comando aún no está implementado. La entrega deberá generar los resultados desde datos reproducibles, sin rutas personales y en menos de 15 minutos. Se incluirán renv.lock, informe.pdf de hasta 10 páginas, referencias_E2.csv con al menos 15 artículos WoS Q1–Q2 verificados y únicos, y evidencias de validación.
 
-Comparar una cartera equiponderada con mínima varianza, inversa de volatilidad y contribuciones iguales al riesgo (ERC). Estimar los pesos con ventanas históricas y aplicarlos solamente después de la fecha de estimación. Evaluar CAGR, volatilidad, Sharpe, caída máxima, rotación y Sharpe neto de costos. Las conclusiones pueden indicar que una estrategia no mejora al benchmark.
+## Datos y límites
+Se propone usar diez portafolios sectoriales diarios de Kenneth French, con evaluación 2007–2025. Ver la propuesta para períodos iniciales, tasa libre de riesgo y limitaciones de los costos simulados. Conservar versión y procedencia de la base. Las referencias iniciales todavía requieren registro en el foro E2 y verificación de cuartil JCR.
 
-## Datos
-
-Pendiente: definir universo, fuente autorizada, período, frecuencia y tratamiento de activos retirados. Documentar ajustes por splits y dividendos y la fecha de descarga. No usar los datos simulados del curso como evidencia sobre rendimientos reales de mercado.
-
-## Estructura
-
-- datos/: archivos originales y documentación de su procedencia.
-- codigo/: scripts y pruebas reproducibles.
-- resultados/: salidas generadas automáticamente.
-- AGENTS.md: instrucciones para Codex y convenciones del proyecto.
-- PROPUESTA_BORRADOR.md: diseño inicial para revisión del grupo.
-
-## Ejecución prevista
-
-Desde la raíz del repositorio, una vez implementado el programa:
-
-```text
-Rscript codigo/ejecutar.R datos/precios.csv resultados 0.05
-```
-
-Este es el contrato propuesto; ejecutar.R todavía no existe. No se presenta el proyecto como un backtest ya implementado. El script deberá crear las salidas y ejecutarse sin intervención manual ni rutas fijas. Se registrará la versión de R y las dependencias utilizadas.
-
-## Control del sesgo principal
-
-El riesgo principal es el sobreajuste: probar muchas estrategias, ventanas o parámetros y seleccionar retrospectivamente la mejor. Antes de evaluar, registrar estrategias, parámetros, costos, benchmark y criterio de selección. Reservar el tramo final de datos para una sola evaluación, sin ajustar el modelo después de conocer ese resultado. Conservar un registro de todas las variantes probadas.
-
-También se controlará look-ahead: los pesos de una fecha solo podrán depender de información disponible hasta ese momento. Una prueba cambiará los datos futuros y comprobará que no cambian los pesos ya decididos.
-
-## Referencias y trazabilidad
-
-Las referencias aún están en selección. Verificar título, autores, año, DOI y afirmación respaldada; registrar los artículos descartados por estar usados en la sección. No declarar exclusividad ni cuartil JCR sin evidencia. Registrar el apoyo de IA, las correcciones humanas y las pruebas ejecutadas.
+Cada integrante debe realizar sus aportes con su propia cuenta de GitHub. Las invitaciones pendientes no equivalen a acceso aceptado ni a contribuciones realizadas.
